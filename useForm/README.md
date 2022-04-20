@@ -9,6 +9,6 @@ Ejemplo:
         email: ''
     };
     
-    const [ formValues, handleInputChange, reset ] = useForm( initialForm );
+    const [ formState, handleInputChange, reset ] = useForm( initialForm );
 
 ```
